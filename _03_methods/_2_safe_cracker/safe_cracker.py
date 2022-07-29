@@ -9,6 +9,9 @@ def crack_the_safe():
     # TODO: Your mission: Use the try_code method to crack the safe
     #  by trying all possible combinations
 
+    for num in range (1000000):
+        try_code(num)
+
 
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
